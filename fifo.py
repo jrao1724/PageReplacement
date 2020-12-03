@@ -18,8 +18,3 @@ def fifo(page_nums, frame_size):
             pf += 1
             
     return pf
-    
-pages = [1,2,1,5,0,4,0,0,7,3,1,2,1,5,0,4,0,0,7,3]
-frameSize = 5
-
-print(fifo(pages, frameSize))

@@ -30,8 +30,3 @@ def lru(page_nums, frame_size):
             pf += 1
     
     return pf
-    
-pages = [1,2,1,5,0,4,0,0,7,3,1,2,1,5,0,4,0,0,7,3]
-frameSize = 4
-
-print(lru(pages, frameSize))
